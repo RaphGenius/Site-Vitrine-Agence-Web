@@ -14,14 +14,14 @@
     left: -80px;
     z-index: -1;
 
-    @media screen and (max-width: 810px){
+    @media screen and (max-width: 810px) {
       height: 200px;
       width: 200px;
       bottom: -110px;
     }
-    @media screen and (max-width: 430px){
+    @media screen and (max-width: 430px) {
       // display: none;
-      left : -500px;
+      left: -500px;
     }
   }
 
@@ -33,10 +33,10 @@
     transform: translateY(-100%);
     animation: navProject 1s ease forwards;
 
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 650px) {
       left: 70%;
     }
-  
+
     @keyframes navProject {
       to {
         transform: translateY(0);
@@ -59,7 +59,7 @@
     transform: translateX(-50%);
     transform: scale(0);
     animation: logoProject 2s ease forwards;
-  
+
     @keyframes logoProject {
       to {
         transform: scale(1);
@@ -73,25 +73,25 @@
     position: relative;
     text-align: right;
 
-    @media screen and (max-width: 810px){
+    @media screen and (max-width: 810px) {
       grid-template-columns: 25% 75%;
     }
-    @media screen and (max-width: 700px){
+    @media screen and (max-width: 700px) {
       grid-template-columns: 1fr;
       grid-template-rows: 100px 1fr;
     }
-    @media screen and (max-height: 600px){
+    @media screen and (max-height: 600px) {
       margin: 3rem 1rem 0;
     }
 
     .project-content {
       margin-right: 20px;
-      
-      @media screen and (max-width: 700px){
+
+      @media screen and (max-width: 700px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 .5rem;
+        padding: 0 0.5rem;
       }
 
       h1 {
@@ -103,10 +103,10 @@
         animation: transformTitle 1.5s ease forwards;
         transform-origin: 150%;
 
-        @media screen and (max-width: 810px){
+        @media screen and (max-width: 810px) {
           font-size: 2rem;
         }
-        @media screen and (max-width: 450px){
+        @media screen and (max-width: 450px) {
           font-size: 1.2rem;
         }
 
@@ -121,13 +121,13 @@
         color: $color-4;
         font-size: 1.2rem;
 
-        @media screen and (max-width: 700px){
+        @media screen and (max-width: 700px) {
           margin: 0;
         }
-        @media screen and (max-width: 450px){
-          font-size: .9rem;
+        @media screen and (max-width: 450px) {
+          font-size: 0.9rem;
         }
-        
+
         &:after {
           content: "";
           height: 340px;
@@ -139,7 +139,7 @@
           left: 70px;
           z-index: -10;
 
-          @media screen and (max-width: 810px){
+          @media screen and (max-width: 810px) {
             height: 220px;
             width: 220px;
             left: -30px;
@@ -149,11 +149,11 @@
       li {
         font-size: 1.5rem;
 
-        @media screen and (max-width: 700px){
+        @media screen and (max-width: 700px) {
           font-size: 1.1rem;
         }
-        @media screen and (max-width: 400px){
-          font-size: .8rem;
+        @media screen and (max-width: 400px) {
+          font-size: 0.8rem;
         }
       }
     }
@@ -162,7 +162,7 @@
       text-align: left;
       margin-left: 10px;
 
-      @media screen and (max-width: 700px){
+      @media screen and (max-width: 700px) {
         text-align: center;
         margin: 0 auto;
       }
@@ -175,17 +175,17 @@
         overflow: hidden;
         position: relative;
 
-        @media screen and (max-width: 940px){
+        @media screen and (max-width: 940px) {
           height: 300px;
           width: 500px;
         }
-        @media screen and (max-width: 540px){
+        @media screen and (max-width: 540px) {
           height: 200px;
           width: 370px;
         }
-        @media screen and (max-width: 400px){
+        @media screen and (max-width: 400px) {
           height: 150px;
-          width: 280px
+          width: 280px;
         }
 
         &:hover span,
@@ -242,9 +242,9 @@
         color: $color-1;
         background: $color-2;
 
-        @media screen and (max-width: 410px){
+        @media screen and (max-width: 410px) {
           width: 100px;
-          font-size: .85rem;
+          font-size: 0.85rem;
         }
 
         &:hover {
@@ -271,8 +271,8 @@
         transform: scale(1);
       }
     }
-    
-    @media screen and (max-width: 630px){
+
+    @media screen and (max-width: 630px) {
       display: none;
     }
   }
