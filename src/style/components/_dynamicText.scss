@@ -1,7 +1,9 @@
 .dynamic-text {
   position: relative;
   display: flex;
-
+  span {
+    font-size: 80px;
+  }
   #text-target {
     display: flex;
     width: 300px;
